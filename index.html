@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Miss Ishita 💙</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       PAGE 1 — Welcome / Intro
+  ══════════════════════════════════════════ -->
+  <div class="page active" id="page1">
+    <div class="bg-overlay"></div>
+    <div class="card intro-card">
+      <div class="flower-icon">💙</div>
+      <h2 class="card-title">Hey Ishita,<br/><span>this one's only for you.</span></h2>
+      <button class="cta-btn" onclick="goToPage(1)">
+        <span>Okay fine, show me</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       PAGE 2 — "I don't send this to everyone"
+  ══════════════════════════════════════════ -->
+  <div class="page" id="page2">
+    <div class="bg-overlay"></div>
+    <div class="card letter-card">
+      <div class="letter-header">
+        <div class="letter-stamp">💙</div>
+        <p class="letter-date">July 2026</p>
+      </div>
+
+      <p class="salutation">Ishita,</p>
+
+      <p class="letter-para">
+        I know exactly what you're thinking right now. <em>"Oh sure, he probably sends this
+        to every girl he's ever looked at twice."</em> I get it. That's a fair assumption. People
+        do that. I don't.
+      </p>
+      <p class="letter-para">
+        I'm not going to sit here and say "I'm different" because every guy says that.
+        Instead I'll just say — I actually agree with you on not liking hookups and one night stands.
+      </p>
+      <p class="letter-para">
+        So no — I did not send this to someone else. Not a chance. You're going to see why
+        in a second. Keep going.
+      </p>
+
+      <button class="cta-btn letter-next-btn" onclick="goToPage(2)">
+        <span>Alright, I believe you 🙄</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       PAGE 3 — The Advantages (the main pitch)
+  ══════════════════════════════════════════ -->
+  <div class="page" id="page3">
+    <div class="bg-overlay"></div>
+    <div class="card advantages-card">
+      <div class="section-icon">✨</div>
+      <h2 class="section-title">Why being with me<br/><span>isn't a bad deal, actually</span></h2>
+      <p class="section-subtitle">An honest, slightly unhinged list</p>
+
+      <div class="adv-list">
+        <div class="adv-item">
+          <span class="adv-num">01</span>
+          <div class="adv-text">
+            <strong>I actually listen.</strong> Not the nodding-while-scrolling kind. The kind where I'll remember that offhand thing you said three weeks ago and bring it up when it matters.
+          </div>
+        </div>
+        <div class="adv-item">
+          <span class="adv-num">02</span>
+          <div class="adv-text">
+            <strong>I will hype you up endlessly.</strong> Your ideas, your rants, your 2am "I'm going to change my entire life plan" moments — I'm there, fully, no judgment.
+          </div>
+        </div>
+        <div class="adv-item">
+          <span class="adv-num">03</span>
+          <div class="adv-text">
+            <strong>I remember the small things.</strong> not to mention, I already noted that you like blue flowers. That's just how my brain works with people I actually care about. 💙
+          </div>
+        </div>
+        <div class="adv-item">
+          <span class="adv-num">04</span>
+          <div class="adv-text">
+            <strong>Zero games.</strong> No leaving you on read to "seem cool." No hot and cold energy. I say what I mean, I mean what I say.
+          </div>
+        </div>
+        <div class="adv-item">
+          <span class="adv-num">05</span>
+          <div class="adv-text">
+            <strong>Genuinely funny.</strong> Okay, this one's debatable, but I'm told I'm at least a 7/10 on the humour scale. You'd be the judge.
+          </div>
+        </div>
+      </div>
+
+      <button class="cta-btn" onclick="goToPage(3)" style="margin-top: 28px;">
+        <span>There's more? 👀</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       PAGE 4 — The Blue Flowers + Personal Note
+  ══════════════════════════════════════════ -->
+  <div class="page" id="page4">
+    <div class="bg-overlay"></div>
+    <div class="card letter-card personal-note-card">
+      <div class="letter-header">
+        <div class="letter-stamp">🌸</div>
+        <p class="letter-date">A small detail</p>
+      </div>
+
+      <p class="salutation">One more thing —</p>
+
+      <p class="letter-para">
+        I'm not going to forget what matters even a bit to you, either — because
+        that's exactly the kind of thing that matters to me. Not grand gestures (though I'm
+        capable of those too), but remembering what makes you, <em>you</em>.
+      </p>
+      <p class="letter-para">
+        Look — I'm not here promising you the world. I'm just saying: with me, you'd never
+        have to wonder if you're being paid attention to. You would be. Always.
+      </p>
+      <p class="letter-para">
+        And now — the real question. The one this whole thing has been building toward.
+        Brace yourself.
+      </p>
+
+      <p class="sign-off">Yours (hopefully),</p>
+      <p class="signature">Vishesh</p>
+
+      <button class="cta-btn letter-next-btn" onclick="goToPage(4)">
+        <span>Okay okay, what is it 💙</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       PAGE 5 — The Ask (Yes / Dancing No)
+  ══════════════════════════════════════════ -->
+  <div class="page" id="page5">
+    <div class="bg-overlay"></div>
+    <div class="card ask-card" id="askCard">
+      <div class="ask-icon">🥺💙</div>
+      <h2 class="ask-question">Would you give me<br/>a chance?</h2>
+      <p class="ask-sub">Think carefully. The No button is… unreliable, and come on it's worth a shot, isn't it?</p>
+
+      <div class="btn-group" id="btnGroup">
+        <button class="choice-btn yes-btn" id="yesBtn">Yes! 💙</button>
+        <button class="choice-btn no-btn" id="noBtn">No…</button>
+      </div>
+
+      <p class="no-counter-msg" id="noCounterMsg"></p>
+
+      <!-- Yes reveal -->
+      <div class="thank-you-msg" id="thankYouMsg">
+        <span class="big-heart">💙</span>
+        <p>You just made my day. 🌸</p>
+        <p class="thank-sub">I promise you won't regret it, Ishita. 💙</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
